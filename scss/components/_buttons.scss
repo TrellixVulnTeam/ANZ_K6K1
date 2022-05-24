@@ -1,0 +1,14 @@
+main .landing .landing__btn {
+  background-color: $colour-btn;
+  color: $colour-white;
+  border-radius: 3px;
+  border: 1px solid $colour-darkblue;
+  padding: 0.7em 1.5em;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin: 1.5em 0;
+}
+
+main .landing .landing__btn:hover {
+  background-color: $colour-blue;
+}

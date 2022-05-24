@@ -1,4 +1,31 @@
-* {
-  color: $colour-darkblue;
+main {
   background-color: $colour-blue;
+  height: 39rem;
+  align-items: center;
+}
+
+.landing {
+  background-color: $colour-white;
+  width: 31.25rem;
+  height: 24.188rem;
+  padding: 2em;
+  border-radius: 8px;
+  margin-right: 8em;
+  box-shadow: 0 4px 25px 0 $colour-darkblue;
+
+  .landing__content {
+    color: $colour-grey;
+    font-size: 1.625rem;
+    font-weight: 300;
+    margin-top: 0.5em;
+  }
+
+  .landing__tnc {
+    font-size: 0.875rem;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: center;
 }
