@@ -71,6 +71,10 @@ h1 {
   color: #004165;
   line-height: 1.1; }
 
+@media (max-width: 71.25rem) {
+  h1 {
+    font-size: 1.875rem; } }
+
 main .landing .landing__btn {
   background-color: #0072ac;
   color: #ffffff;
@@ -84,10 +88,36 @@ main .landing .landing__btn {
 main .landing .landing__btn:hover {
   background-color: #005f90; }
 
+.nav--wrapper {
+  max-width: 77.375rem;
+  display: flex; }
+
+nav {
+  background-color: #004165;
+  display: flex;
+  justify-content: space-around; }
+
+ul {
+  display: flex;
+  color: #ffffff;
+  list-style: none;
+  margin: 0; }
+
+.nav__primary li {
+  font-weight: 700;
+  padding: 1em 0.8em; }
+
+.nav__primary li:first-child {
+  background-color: #0072ac; }
+
+.nav__utility li {
+  font-weight: 500; }
+
 main {
   background-color: #005f90;
   height: 39rem;
-  align-items: center; }
+  align-items: center;
+  padding: 0 4rem; }
 
 .landing {
   background-color: #ffffff;

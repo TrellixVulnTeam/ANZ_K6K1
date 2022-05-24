@@ -5,3 +5,9 @@ h1 {
   color: $colour-darkblue;
   line-height: 1.1;
 }
+
+@media (max-width: 71.25rem) {
+  h1 {
+    font-size: 1.875rem;
+  }
+}

@@ -1,0 +1,30 @@
+.nav--wrapper {
+  max-width: 77.375rem;
+  display: flex;
+}
+
+nav {
+  background-color: $colour-darkblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  color: $colour-white;
+  list-style: none;
+  margin: 0;
+}
+
+.nav__primary li {
+  font-weight: 700;
+  padding: 1em 0.8em;
+}
+
+.nav__primary li:first-child {
+  background-color: $colour-btn;
+}
+
+.nav__utility li {
+  font-weight: 500;
+}
