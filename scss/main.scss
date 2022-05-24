@@ -1,33 +1,34 @@
 @charset "UTF-8";
 
-// @import "abstracts/colours";
-// @import "abstracts/fonts";
+@import "abstracts/colours";
+@import "abstracts/fonts";
+@import "abstracts/mixins";
+@import "abstracts/variables";
 
-// @import "base/reset";
-// @import "base/typography";
-// @import "base/animations";
+@import "base/animations";
+@import "base/normalize";
+@import "base/reset";
+@import "base/typography";
 
-// @import "layout/navigation";
-// @import "layout/grid";
-// @import "layout/header";
-// @import "layout/footer";
-// @import "layout/sidebar";
-// @import "layout/forms";
+@import "components/alerts";
+@import "components/buttons";
+@import "components/carousel";
+@import "components/cover";
+@import "components/dropdown";
+@import "components/icons";
+@import "components/links";
 
-// @import "components/buttons";
-// @import "components/carousel";
-// @import "components/cover";
-// @import "components/dropdown";
-// @import "components/icons";
-// @import "components/links";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/navbar";
+@import "layout/sidebar";
+@import "layout/grid";
+@import "layout/forms";
 
-// @import "pages/aboutme";
-// @import "pages/clones";
-// @import "pages/design";
 @import "pages/index";
-// @import "pages/components";
 
-// @import "themes/theme";
-// @import "themes/admin";
+@import "themes/dark-theme";
+@import "themes/light-theme";
+@import "themes/material-theme";
 
-//npm run sass
+@import "vendors/bootstrap";
