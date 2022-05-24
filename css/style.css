@@ -88,9 +88,17 @@ main .landing .landing__btn {
 main .landing .landing__btn:hover {
   background-color: #005f90; }
 
-.nav--wrapper {
-  max-width: 77.375rem;
+.nav__wrapper {
+  width: 77.375rem;
+  display: flex;
+  justify-content: space-between; }
+
+.nav__container-1,
+.nav__container-2 {
   display: flex; }
+
+.nav__logo {
+  padding-right: 1em; }
 
 nav {
   background-color: #004165;
@@ -101,11 +109,13 @@ ul {
   display: flex;
   color: #ffffff;
   list-style: none;
-  margin: 0; }
+  margin: 0;
+  padding: 0;
+  font-size: 0.938rem; }
 
 .nav__primary li {
   font-weight: 700;
-  padding: 1em 0.8em; }
+  padding: 1.1em 0.8em; }
 
 .nav__primary li:first-child {
   background-color: #0072ac; }
