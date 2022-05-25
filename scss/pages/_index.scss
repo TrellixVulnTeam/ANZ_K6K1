@@ -1,4 +1,6 @@
 main {
+  display: flex;
+  justify-content: center;
   background-color: $colour-blue;
   height: 39rem;
   align-items: center;
@@ -26,38 +28,48 @@ main {
   }
 }
 
-main {
-  display: flex;
-  justify-content: center;
-}
-
+// SECTION - LINK
 .link {
-  margin-top: 8em;
+  padding: 8em 0 8em 0;
+
+  .link__wrapper {
+    display: flex;
+    width: 77.375rem;
+    margin: 0 auto;
+  }
+
+  .link__container {
+    width: 11.563rem;
+    text-align: center;
+    height: 140px;
+  }
+
+  .link__container:last-child {
+    margin-top: 1.4em;
+  }
+
+  .link__container img {
+    padding-bottom: 1em;
+  }
+
+  .link__wrapper a {
+    color: $colour-btn;
+    font-weight: 600;
+    font-size: 0.938rem;
+    text-decoration: none;
+  }
+
+  .link__img--container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link__divider {
+    background: #d7e1e9;
+    width: 1px;
+    height: 80px;
+    margin: 1.5em 1em 0 1.5em;
+  }
 }
 
-.link__wrapper {
-  display: flex;
-  width: 77.375rem;
-  margin: 0 auto;
-}
-
-.link__container {
-  width: 11.563rem;
-  text-align: center;
-}
-
-.link__container img {
-  padding-bottom: 1em;
-}
-
-.link__wrapper a {
-  color: $colour-btn;
-  font-weight: 600;
-  font-size: 0.938rem;
-  text-decoration: none;
-}
-
-.link__img--container {
-  display: flex;
-  justify-content: center;
-}
+// SECTION - LOANS
