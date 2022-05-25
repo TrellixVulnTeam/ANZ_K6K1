@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>private-school-fee-calculator</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="private-school-fee-calculator" transform="translate(1.000000, 1.000000)">
+            <path d="M41.6725278,8.48333446 L43.6790734,5.12464488 L45.1962177,8.72496681 L43.1162618,38.735704 C43.0428516,39.7022333 42.2108693,40.4271304 41.2320665,40.3546407 L41.2320665,40.3546407 C40.2532638,40.282151 39.5191617,39.460601 39.5925719,38.4940716 L41.6725278,8.48333446 Z" id="Path" stroke="#007DBA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M45.1962177,8.72496681 C45.1228075,9.69149618 44.2908252,10.4163932 43.3120224,10.3439035 C42.3332196,10.2714138 41.5991176,9.44986384 41.6725278,8.48333446" id="Path" stroke="#007DBA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M43.4099027,34.6279541 C43.3364925,35.5944835 42.5045101,36.3193805 41.5257073,36.2468908 C40.5469046,36.1744011 39.8128025,35.3528511 39.8862127,34.3863218" id="Path" stroke="#007DBA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Path" fill="#007DBA" fill-rule="nonzero" points="43.6790734 5.12464488 44.7068163 7.51680509 42.3332196 7.37182568"></polygon>
+            <path d="M63.1817185,35.135382 L53.3936909,36.1019114 C53.1245201,36.1260746 52.8798194,35.9327688 52.8553494,35.6669732 L49.4050696,1.50015971 C49.3805995,1.23436414 49.5763601,0.992731791 49.8455309,0.968568557 L59.6335585,0.00203917944 C59.9027293,-0.022124055 60.14743,0.17118182 60.1719,0.436977399 L63.6466499,34.6279541 C63.6466499,34.8695865 63.4508893,35.1112188 63.1817185,35.135382 Z" id="Path" stroke="#007DBA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="Rectangle" stroke="#7A99AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" x="-4.08562073e-14" y="1.2826906" width="16.8843477" height="16.6726318"></rect>
+            <rect id="Rectangle" stroke="#7A99AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" x="16.8843477" y="1.2826906" width="16.8843477" height="16.6726318"></rect>
+            <rect id="Rectangle" stroke="#7A99AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" x="-4.08562073e-14" y="17.9553224" width="16.8843477" height="16.6726318"></rect>
+            <rect id="Rectangle" stroke="#7A99AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" x="16.8843477" y="17.9553224" width="16.8843477" height="16.6726318"></rect>
+            <line x1="22.0720024" y1="24.310253" x2="28.5810408" y2="24.310253" id="Path" stroke="#7A99AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="22.0720024" y1="28.224697" x2="28.5810408" y2="28.224697" id="Path" stroke="#7A99AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="3.71945051" y1="9.73982265" x2="13.1648972" y2="9.73982265" id="Path" stroke="#7A99AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="8.44217386" y1="5.07631841" x2="8.44217386" y2="14.4033269" id="Path" stroke="#7A99AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="5.11424445" y1="23.0054384" x2="11.7945733" y2="29.6020014" id="Path" stroke="#7A99AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="11.7945733" y1="23.0054384" x2="5.11424445" y2="29.6020014" id="Path" stroke="#7A99AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="22.0720024" y1="9.73982265" x2="28.5810408" y2="9.73982265" id="Path" stroke="#7A99AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="53.9565025" y1="22.5946634" x2="56.1343386" y2="22.3771943" id="Path" stroke="#007DBA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="53.5160412" y1="18.4144238" x2="54.9597753" y2="18.2694444" id="Path" stroke="#007DBA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="55.0576556" y1="31.317591" x2="57.2599618" y2="31.1001219" id="Path" stroke="#007DBA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="54.6171943" y1="27.1373514" x2="56.0609284" y2="26.992372" id="Path" stroke="#007DBA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="53.1000501" y1="14.210021" x2="55.3023563" y2="13.9925519" id="Path" stroke="#007DBA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="52.6595888" y1="10.0297815" x2="54.1033229" y2="9.88480206" id="Path" stroke="#007DBA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="52.2435976" y1="5.82537868" x2="54.4459039" y2="5.60790957" id="Path" stroke="#007DBA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+        </g>
+    </g>
+</svg>

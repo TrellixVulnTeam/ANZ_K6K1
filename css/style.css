@@ -148,3 +148,28 @@ main {
 main {
   display: flex;
   justify-content: center; }
+
+.link {
+  margin-top: 8em; }
+
+.link__wrapper {
+  display: flex;
+  width: 77.375rem;
+  margin: 0 auto; }
+
+.link__container {
+  width: 11.563rem;
+  text-align: center; }
+
+.link__container img {
+  padding-bottom: 1em; }
+
+.link__wrapper a {
+  color: #0072ac;
+  font-weight: 600;
+  font-size: 0.938rem;
+  text-decoration: none; }
+
+.link__img--container {
+  display: flex;
+  justify-content: center; }
