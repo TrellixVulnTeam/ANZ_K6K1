@@ -132,3 +132,31 @@ main {
     flex-direction: column;
   }
 }
+
+.moreinfo__wrapper {
+  display: flex;
+  gap: 2.5em;
+  padding-top: 0.5em;
+}
+
+.moreinfo__container {
+  border: 1px solid $colour-grey-opacity;
+  border-radius: 3px;
+  padding: 1em 2em 1em 2em;
+  width: 24rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.moreinfo__container > a {
+  text-decoration: none;
+  color: $colour-btn;
+  font-weight: 600;
+}
+
+.moreinfo__container > p {
+  color: $colour-btn;
+  font-weight: 600;
+}
