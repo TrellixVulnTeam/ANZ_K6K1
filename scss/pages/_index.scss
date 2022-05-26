@@ -10,16 +10,15 @@ main {
 .landing {
   background-color: $colour-white;
   width: 31.25rem;
-
-  padding: 2em;
+  padding: 2.5em 2.5em 2.5em 2.5em;
   border-radius: 8px;
   margin-right: 8em;
   box-shadow: 0 4px 25px 0 $colour-darkblue;
 
   .landing__content {
     color: $colour-grey;
-    font-size: 1.625rem;
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 400;
     margin-top: 0.5em;
   }
 
