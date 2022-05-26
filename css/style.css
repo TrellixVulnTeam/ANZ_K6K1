@@ -77,7 +77,8 @@ h1 {
 h2 {
   font-size: 1.8rem;
   color: #004165;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-bottom: 1.7rem; }
 
 h3 {
   font-size: 1.4rem;
@@ -185,12 +186,12 @@ main {
     margin: 1.5em 1em 0 1.5em; }
 
 .rate {
-  padding: 3em 0 7em 0;
+  padding: 3em 0 5em 0;
   max-width: 77.375rem;
   margin: 0 auto; }
 
 .rate > p {
-  padding: 1em 0 1em 0;
+  padding: 0 0 1.5em 0;
   font-size: 1rem;
   font-weight: 500;
   color: #494949;
@@ -199,7 +200,7 @@ main {
 .rate__wrapper {
   display: flex;
   gap: 2.5em;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
   flex-wrap: wrap; }
   .rate__wrapper .rate__container {
     border: 1px solid rgba(73, 73, 73, 0.226);
@@ -231,7 +232,7 @@ main {
 .moreinfo__wrapper {
   display: flex;
   gap: 2.5em;
-  padding-top: 0.5em; }
+  flex-wrap: wrap; }
 
 .moreinfo__container {
   border: 1px solid rgba(73, 73, 73, 0.226);
@@ -251,3 +252,7 @@ main {
 .moreinfo__container > p {
   color: #0072ac;
   font-weight: 600; }
+
+.plan {
+  max-width: 77.375rem;
+  margin: 0 auto; }
