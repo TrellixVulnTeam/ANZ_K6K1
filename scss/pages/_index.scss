@@ -10,7 +10,7 @@ main {
 .landing {
   background-color: $colour-white;
   width: 31.25rem;
-  height: 24.188rem;
+
   padding: 2em;
   border-radius: 8px;
   margin-right: 8em;
@@ -30,12 +30,20 @@ main {
 
 // SECTION - LINK
 .link {
-  padding: 8em 0 8em 0;
+  padding: 7em 0 0 0;
+  max-width: 77.375rem;
+  margin: 0 auto;
 
   .link__wrapper {
     display: flex;
-    width: 77.375rem;
-    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .link__wrapper a {
+    color: $colour-btn;
+    font-weight: 600;
+    font-size: 0.938rem;
+    text-decoration: none;
   }
 
   .link__container {
@@ -52,13 +60,6 @@ main {
     padding-bottom: 1em;
   }
 
-  .link__wrapper a {
-    color: $colour-btn;
-    font-weight: 600;
-    font-size: 0.938rem;
-    text-decoration: none;
-  }
-
   .link__img--container {
     display: flex;
     justify-content: center;
@@ -73,3 +74,60 @@ main {
 }
 
 // SECTION - LOANS
+.loans {
+  padding: 3em 0 7em 0;
+  width: 77.375rem;
+  margin: 0 auto;
+}
+
+.loans > p {
+  padding: 1em 0 1em 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: $colour-grey;
+  width: 70%;
+}
+
+.rate__wrapper {
+  display: flex;
+  gap: 2.5em;
+  padding-bottom: 2em;
+}
+
+.rate__container {
+  border: 1px solid $colour-grey-opacity;
+  border-radius: 3px;
+  padding: 2em;
+  width: 24rem;
+}
+
+.rate__container > a {
+  text-decoration: none;
+  font-weight: 600;
+  color: $colour-btn;
+}
+
+.rate__compact {
+  display: flex;
+  padding: 1em 0 1em 0;
+  align-items: center;
+}
+
+.rate__compact > p {
+  font-size: 4rem;
+  color: $colour-darkblue;
+  font-weight: 700;
+}
+
+.rate__compact--percent {
+  font-size: 1.5rem;
+  color: $colour-darkblue;
+  font-weight: 700;
+  line-height: 1.1;
+  padding-left: 0.3em;
+}
+
+.rate__compact--percent {
+  display: flex;
+  flex-direction: column;
+}
