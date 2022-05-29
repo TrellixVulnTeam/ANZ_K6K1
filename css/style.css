@@ -265,3 +265,14 @@ main {
 .plan {
   max-width: 77.375rem;
   margin: 0 auto; }
+
+.plan__group {
+  display: flex;
+  flex-direction: row; }
+
+.plan__info {
+  max-width: calc; }
+
+.plan__img img {
+  height: 500px;
+  width: 620px; }
