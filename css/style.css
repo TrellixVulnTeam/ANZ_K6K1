@@ -96,7 +96,8 @@ main .landing .landing__btn {
   margin: 1.5em 0; }
 
 main .landing .landing__btn:hover {
-  background-color: #005f90; }
+  background-color: #005f90;
+  cursor: pointer; }
 
 .nav__wrapper {
   width: 77.375rem;
@@ -132,6 +133,11 @@ ul {
 
 .nav__utility li {
   font-weight: 500; }
+
+.nav__container-1 a,
+.nav__container-2 a {
+  text-decoration: none;
+  color: #ffffff; }
 
 main {
   display: flex;

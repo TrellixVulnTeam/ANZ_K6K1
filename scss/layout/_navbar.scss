@@ -40,3 +40,9 @@ ul {
 .nav__utility li {
   font-weight: 500;
 }
+
+.nav__container-1 a,
+.nav__container-2 a {
+  text-decoration: none;
+  color: $colour-white;
+}
