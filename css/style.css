@@ -124,7 +124,7 @@ nav {
   display: flex;
   justify-content: space-around; }
 
-ul {
+nav ul {
   display: flex;
   color: #ffffff;
   list-style: none;
@@ -335,3 +335,19 @@ main {
 .app__content p {
   color: #ffffff;
   padding-bottom: 1.5em; }
+
+.important {
+  padding-top: 6em;
+  max-width: 77.375rem;
+  margin: 0 auto; }
+  .important p {
+    color: #494949;
+    font-weight: 600; }
+  .important ul {
+    list-style-type: value;
+    font-weight: 600; }
+  .important li {
+    padding-bottom: 0.5em;
+    color: #494949; }
+  .important a {
+    color: #005f90; }

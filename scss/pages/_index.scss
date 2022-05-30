@@ -245,3 +245,28 @@ main {
   color: $colour-white;
   padding-bottom: 1.5em;
 }
+
+.important {
+  padding-top: 6em;
+  max-width: 77.375rem;
+  margin: 0 auto;
+
+  p {
+    color: $colour-grey;
+    font-weight: 600;
+  }
+
+  ul {
+    list-style-type: value;
+    font-weight: 600;
+  }
+
+  li {
+    padding-bottom: 0.5em;
+    color: $colour-grey;
+  }
+
+  a {
+    color: $colour-blue;
+  }
+}
