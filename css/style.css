@@ -263,7 +263,8 @@ main {
 
 .plan {
   max-width: 77.375rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 3em; }
 
 .plan__group {
   display: flex;
@@ -274,9 +275,34 @@ main {
   padding: 3.5em; }
 
 .plan__info p {
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  color: #494949;
+  font-weight: 600; }
 
 .plan__info a {
   text-decoration: none;
   color: #005f90;
   font-weight: 700; }
+
+.personalise {
+  max-width: 77.375rem;
+  margin: 0 auto;
+  padding-bottom: 3em; }
+
+.personalise__wrapper {
+  border: 1px solid rgba(73, 73, 73, 0.226);
+  max-width: 77.375rem;
+  display: flex;
+  padding: 2em; }
+
+.personalise__content p {
+  padding: 0 3.5em 1.5em 0;
+  color: #494949;
+  font-weight: 600; }
+
+.personalise__content a {
+  text-decoration: none;
+  color: #005f90;
+  font-weight: 700;
+  display: block;
+  padding-top: 0.5em; }

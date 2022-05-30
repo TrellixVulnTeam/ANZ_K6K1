@@ -169,6 +169,7 @@ main {
 .plan {
   max-width: 77.375rem;
   margin: 0 auto;
+  padding-bottom: 3em;
 }
 
 .plan__group {
@@ -183,10 +184,39 @@ main {
 
 .plan__info p {
   padding-bottom: 2em;
+  color: $colour-grey;
+  font-weight: 600;
 }
 
 .plan__info a {
   text-decoration: none;
   color: $colour-blue;
   font-weight: 700;
+}
+
+.personalise {
+  max-width: 77.375rem;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+.personalise__wrapper {
+  border: 1px solid $colour-grey-opacity;
+  max-width: 77.375rem;
+  display: flex;
+  padding: 2em;
+}
+
+.personalise__content p {
+  padding: 0 3.5em 1.5em 0;
+  color: $colour-grey;
+  font-weight: 600;
+}
+
+.personalise__content a {
+  text-decoration: none;
+  color: $colour-blue;
+  font-weight: 700;
+  display: block;
+  padding-top: 0.5em;
 }
