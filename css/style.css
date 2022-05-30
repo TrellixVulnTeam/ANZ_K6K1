@@ -42,7 +42,6 @@ a:not([class]) {
 /* Make images easier to work with */
 img,
 picture {
-  max-width: 100%;
   display: block; }
 
 /* Inherit fonts for inputs and buttons */
@@ -268,11 +267,16 @@ main {
 
 .plan__group {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  align-items: center; }
 
 .plan__info {
-  max-width: calc; }
+  padding: 3.5em; }
 
-.plan__img img {
-  height: 500px;
-  width: 620px; }
+.plan__info p {
+  padding-bottom: 2em; }
+
+.plan__info a {
+  text-decoration: none;
+  color: #005f90;
+  font-weight: 700; }
