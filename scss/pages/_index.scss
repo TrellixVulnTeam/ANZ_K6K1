@@ -111,6 +111,10 @@ main {
     color: $colour-btn;
   }
 
+  .rate__container > a:hover {
+    text-decoration: underline;
+  }
+
   .rate__compact {
     display: flex;
     padding: 0em 0 1em 0;
@@ -160,6 +164,14 @@ main {
   font-weight: 600;
 }
 
+.moreinfo__container:hover {
+  background-color: #f7f7f7;
+}
+
+.moreinfo__container > a:hover {
+  text-decoration: underline;
+}
+
 .moreinfo__container > p {
   color: $colour-btn;
   font-weight: 600;
@@ -192,6 +204,10 @@ main {
   text-decoration: none;
   color: $colour-blue;
   font-weight: 700;
+}
+
+.plan__info a:hover {
+  text-decoration: underline;
 }
 
 // Personlise
@@ -262,6 +278,10 @@ main {
     list-style-type: value;
   }
 
+  a:hover {
+    text-decoration: none;
+  }
+
   li {
     padding-bottom: 0.5em;
     color: $colour-grey;
@@ -285,6 +305,10 @@ main {
 
 .help__wrapcontainer {
   display: flex;
+}
+
+.help__wrapcontainer a:hover {
+  text-decoration: underline;
 }
 
 .help__container {
@@ -345,6 +369,10 @@ footer ul {
 
 footer li {
   padding-right: 1em;
+}
+
+.footer__wrapper a:hover {
+  text-decoration: none;
 }
 
 .footer__list {

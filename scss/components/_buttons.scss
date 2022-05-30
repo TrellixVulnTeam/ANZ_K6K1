@@ -32,4 +32,9 @@ main .landing .landing__btn:hover {
   border-radius: 3px;
   font-weight: 700;
   margin-top: 0.5em;
+  cursor: pointer;
+}
+
+.app__content button:hover {
+  text-decoration: underline;
 }
