@@ -197,7 +197,7 @@ main {
 .personalise {
   max-width: 77.375rem;
   margin: 0 auto;
-  padding-bottom: 3em;
+  padding-bottom: 6em;
 }
 
 .personalise__wrapper {
@@ -219,4 +219,29 @@ main {
   font-weight: 700;
   display: block;
   padding-top: 0.5em;
+}
+
+.app {
+  background-color: $colour-blue;
+}
+
+.app__wrapper {
+  max-width: 77.375rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-top: 4em;
+}
+
+.app__content {
+  padding-left: 2em;
+}
+
+.app__content h2 {
+  color: $colour-white;
+}
+
+.app__content p {
+  color: $colour-white;
+  padding-bottom: 1.5em;
 }

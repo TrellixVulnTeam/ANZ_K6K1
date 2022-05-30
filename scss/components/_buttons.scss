@@ -13,3 +13,13 @@ main .landing .landing__btn:hover {
   background-color: $colour-blue;
   cursor: pointer;
 }
+
+.app__content button {
+  background-color: $colour-blue;
+  border: 1px solid white;
+  color: white;
+  padding: 0.6em 1.5em;
+  border-radius: 3px;
+  font-weight: 700;
+  margin-top: 0.5em;
+}
