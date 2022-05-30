@@ -39,10 +39,46 @@ nav ul {
 
 .nav__utility li {
   font-weight: 500;
+  padding-right: 1.5em;
+}
+
+.nav__utility span {
+  padding-right: 0.2em;
+}
+
+.nav__utility img {
+  width: 20px;
+  color: white;
 }
 
 .nav__container-1 a,
 .nav__container-2 a {
   text-decoration: none;
   color: $colour-white;
+}
+
+.nav__container-2 {
+  align-items: center;
+}
+
+.nav__login {
+  float: right;
+}
+
+.nav__utility .material-symbols-outlined {
+  position: relative;
+  top: 6px;
+}
+
+.nav__login .material-symbols-outlined {
+  position: relative;
+  top: 6px;
+  padding-bottom: 0.5em;
+  padding-right: 0.2em;
+}
+
+.nav__dropdown .material-symbols-outlined {
+  position: relative;
+  top: 6px;
+  padding-bottom: 0.5em;
 }

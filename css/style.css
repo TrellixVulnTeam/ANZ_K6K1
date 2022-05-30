@@ -89,6 +89,15 @@ h4 {
   color: #004165;
   font-weight: 700; }
 
+.nav__container-2 button {
+  background-color: #0072ac;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin-right: 0.5em;
+  padding-left: 0.7em;
+  padding-right: 0.7em; }
+
 main .landing .landing__btn {
   background-color: #0072ac;
   color: #ffffff;
@@ -111,6 +120,11 @@ main .landing .landing__btn:hover {
   border-radius: 3px;
   font-weight: 700;
   margin-top: 0.5em; }
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 20;
+  color: white;
+  display: block; }
 
 .nav__wrapper {
   width: 77.375rem;
@@ -145,12 +159,41 @@ nav ul {
   background-color: #0072ac; }
 
 .nav__utility li {
-  font-weight: 500; }
+  font-weight: 500;
+  padding-right: 1.5em; }
+
+.nav__utility span {
+  padding-right: 0.2em; }
+
+.nav__utility img {
+  width: 20px;
+  color: white; }
 
 .nav__container-1 a,
 .nav__container-2 a {
   text-decoration: none;
   color: #ffffff; }
+
+.nav__container-2 {
+  align-items: center; }
+
+.nav__login {
+  float: right; }
+
+.nav__utility .material-symbols-outlined {
+  position: relative;
+  top: 6px; }
+
+.nav__login .material-symbols-outlined {
+  position: relative;
+  top: 6px;
+  padding-bottom: 0.5em;
+  padding-right: 0.2em; }
+
+.nav__dropdown .material-symbols-outlined {
+  position: relative;
+  top: 6px;
+  padding-bottom: 0.5em; }
 
 main {
   display: flex;
