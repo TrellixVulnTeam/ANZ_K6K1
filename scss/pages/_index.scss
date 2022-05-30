@@ -253,12 +253,10 @@ main {
 
   p {
     color: $colour-grey;
-    font-weight: 600;
   }
 
   ul {
     list-style-type: value;
-    font-weight: 600;
   }
 
   li {
@@ -269,4 +267,37 @@ main {
   a {
     color: $colour-blue;
   }
+}
+
+.help {
+  background-color: $colour-lightgrey;
+}
+
+.help__wrapper {
+  max-width: 77.375rem;
+  margin: 0 auto;
+  padding: 2em 0 4em 0;
+}
+
+.help__wrapcontainer {
+  display: flex;
+}
+
+.help__container {
+  display: flex;
+  width: 33.33%;
+}
+
+.help__container--content {
+  padding-left: 1em;
+}
+
+.help__container--content h3 {
+  padding-bottom: 0.3em;
+}
+
+.help__container--content a {
+  text-decoration: none;
+  color: $colour-blue;
+  font-weight: 700;
 }

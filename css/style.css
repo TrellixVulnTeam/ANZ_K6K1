@@ -341,13 +341,37 @@ main {
   max-width: 77.375rem;
   margin: 0 auto; }
   .important p {
-    color: #494949;
-    font-weight: 600; }
+    color: #494949; }
   .important ul {
-    list-style-type: value;
-    font-weight: 600; }
+    list-style-type: value; }
   .important li {
     padding-bottom: 0.5em;
     color: #494949; }
   .important a {
     color: #005f90; }
+
+.help {
+  background-color: #f7f7f7; }
+
+.help__wrapper {
+  max-width: 77.375rem;
+  margin: 0 auto;
+  padding: 2em 0 4em 0; }
+
+.help__wrapcontainer {
+  display: flex; }
+
+.help__container {
+  display: flex;
+  width: 33.33%; }
+
+.help__container--content {
+  padding-left: 1em; }
+
+.help__container--content h3 {
+  padding-bottom: 0.3em; }
+
+.help__container--content a {
+  text-decoration: none;
+  color: #005f90;
+  font-weight: 700; }
